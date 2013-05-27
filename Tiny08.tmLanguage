@@ -18,7 +18,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\bLoadI|Load|Store|Move|Swap|Add|Sub|And|Or|JmpC|Jmp|ClrC|SetC|Less|Equal|\b</string>
+			<string>\bLoadI|Load|Store|Move|Swap|Add|Sub|And|Or|JmpNC|JmpC|Jmp|ClrC|SetC|Less|Equal|\b</string>
 			<key>name</key>
 			<string>support.function.source.tiny08</string>
 		</dict>
