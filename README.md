@@ -13,4 +13,4 @@ Usage
 
 Clone this repository to your Sublime Text 2's `Package` directory.
 
-   git clone git@github.com:raincole/sublime-tiny08.git
+    git clone git@github.com:raincole/sublime-tiny08.git
