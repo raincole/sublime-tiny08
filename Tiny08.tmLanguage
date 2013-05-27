@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>tiny08</string>
+	</array>
+	<key>name</key>
+	<string>Tiny08</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>match</key>
+			<string>^\S+:</string>
+			<key>name</key>
+			<string>keyword.control.source.tiny08</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\bLoadI|Load|Store|Move|Swap|Add|Sub|And|Or|JmpC|Jmp|ClrC|SetC|Less|Equal|\b</string>
+			<key>name</key>
+			<string>support.function.source.tiny08</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>#\d+\b</string>
+			<key>name</key>
+			<string>constant.numeric.source.tiny08</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\[\d+\]</string>
+			<key>name</key>
+			<string>string.source.tiny08</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\bR\d+\b</string>
+			<key>name</key>
+			<string>variable.parameter.source.tiny08</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>//.*</string>
+			<key>name</key>
+			<string>comment.line.double-slash.source.tiny08</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>^%.+</string>
+			<key>name</key>
+			<string>keyword.other.source.tiny08</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.tiny08</string>
+	<key>uuid</key>
+	<string>a0be773f-2b89-4a06-a9ff-49541e03109f</string>
+</dict>
+</plist>

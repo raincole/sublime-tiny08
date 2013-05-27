@@ -1,0 +1,36 @@
+{ "name": "Tiny08",
+  "scopeName": "source.tiny08",
+  "fileTypes": ["tiny08"],
+  "patterns": [
+  	{
+  	   "name": "keyword.control.source.tiny08",
+  	   "match": "^\\S+:"
+  	},
+  	{
+  		"name": "support.function.source.tiny08",
+  		"match": "\\bLoadI|Load|Store|Move|Swap|Add|Sub|And|Or|JmpC|Jmp|ClrC|SetC|Less|Equal|\\b"
+  	},
+  	{
+  		"name": "constant.numeric.source.tiny08",
+  		"match": "#\\d+\\b"
+  	},
+  	{
+  		"name": "string.source.tiny08",
+  		"match": "\\[\\d+\\]"
+  	},
+  	{
+  		"name": "variable.parameter.source.tiny08",
+  		"match": "\\bR\\d+\\b"
+  	},
+  	{
+  		"name": "comment.line.double-slash.source.tiny08",
+  		"match": "//.*"
+  	},
+  	{
+  		"name": "keyword.other.source.tiny08",
+  		"match": "^%.+"
+  	}
+
+  ],
+  "uuid": "a0be773f-2b89-4a06-a9ff-49541e03109f"
+}
