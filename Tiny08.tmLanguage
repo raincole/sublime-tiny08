@@ -24,13 +24,13 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>#\d+\b</string>
+			<string>#(0x)?[A-Fa-f\d]+\b</string>
 			<key>name</key>
 			<string>constant.numeric.source.tiny08</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\[(0x)?[A-Fa-f\d]+\]</string>
+			<string>\[(((0x)?[A-Fa-f\d]+)|(R\d+))\]</string>
 			<key>name</key>
 			<string>string.source.tiny08</string>
 		</dict>

@@ -12,11 +12,11 @@
   	},
   	{
   		"name": "constant.numeric.source.tiny08",
-  		"match": "#\\d+\\b"
+  		"match": "#(0x)?[A-Fa-f\\d]+\\b"
   	},
   	{
   		"name": "string.source.tiny08",
-  		"match": "\\[(0x)?[A-Fa-f\\d]+\\]"
+  		"match": "\\[(((0x)?[A-Fa-f\\d]+)|(R\\d+))\\]"
   	},
   	{
   		"name": "variable.parameter.source.tiny08",
