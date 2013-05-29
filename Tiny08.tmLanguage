@@ -48,7 +48,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>^%(print|printm|dump|break)</string>
+			<string>^%(printm|print|dump|break)</string>
 			<key>name</key>
 			<string>keyword.other.source.tiny08</string>
 		</dict>
