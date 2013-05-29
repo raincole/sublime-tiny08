@@ -30,7 +30,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\[\d+\]</string>
+			<string>\[(0x)?[A-Fa-f\d]+\]</string>
 			<key>name</key>
 			<string>string.source.tiny08</string>
 		</dict>

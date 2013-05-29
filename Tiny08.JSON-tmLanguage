@@ -16,7 +16,7 @@
   	},
   	{
   		"name": "string.source.tiny08",
-  		"match": "\\[\\d+\\]"
+  		"match": "\\[(0x)?[A-Fa-f\\d]+\\]"
   	},
   	{
   		"name": "variable.parameter.source.tiny08",
