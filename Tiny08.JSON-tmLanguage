@@ -28,7 +28,7 @@
   	},
   	{
   		"name": "keyword.other.source.tiny08",
-  		"match": "^%.+"
+  		"match": "^%(print|printm|dump|break)"
   	}
 
   ],
