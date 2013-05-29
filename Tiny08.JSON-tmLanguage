@@ -8,7 +8,7 @@
   	},
   	{
   		"name": "support.function.source.tiny08",
-  		"match": "\\bLoadI|Load|Store|Move|Swap|Add|Sub|Mul|Div|And|Or|JmpNC|JmpC|Jmp|ClrC|SetC|Less|Equal|Test\\b"
+  		"match": "\\bLoadR|LoadI|Load|SaveR|Save|Move|Swap|Add|Sub|Mul|Div|And|Or|JmpNC|JmpC|Jmp|ClrC|SetC|Less|Equal|Test|Exit\\b"
   	},
   	{
   		"name": "constant.numeric.source.tiny08",
